@@ -1,15 +1,17 @@
 {
-  "name": "HTML",
+  "name": "html",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "precommit": "node index.js && git add ."
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/xiguaxigua/sketch.git"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "node index.js && git add ."
+    }
   },
   "keywords": [],
   "author": "",
