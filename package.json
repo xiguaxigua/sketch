@@ -1,0 +1,25 @@
+{
+  "name": "HTML",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xiguaxigua/sketch.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xiguaxigua/sketch/issues"
+  },
+  "homepage": "https://github.com/xiguaxigua/sketch#readme",
+  "dependencies": {
+    "imagemin": "^7.0.0",
+    "imagemin-jpegtran": "^6.0.0",
+    "imagemin-pngquant": "^8.0.0"
+  }
+}
