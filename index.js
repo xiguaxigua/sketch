@@ -35,4 +35,5 @@ function readFileList(path, filesList) {
     });
   }
   console.log('压缩完毕');
+  exit(1);
 })();

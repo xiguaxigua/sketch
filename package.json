@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "pre-commit": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -18,8 +19,10 @@
   },
   "homepage": "https://github.com/xiguaxigua/sketch#readme",
   "dependencies": {
+    "husky": "^3.0.9",
     "imagemin": "^7.0.0",
     "imagemin-jpegtran": "^6.0.0",
-    "imagemin-pngquant": "^8.0.0"
+    "imagemin-pngquant": "^8.0.0",
+    "pre-commit": "^1.2.2"
   }
 }
